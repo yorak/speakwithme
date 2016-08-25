@@ -11,7 +11,7 @@ import os
 WAV_FILE = path.join(path.dirname(path.realpath(__file__)), "utterance.wav")
 LANG = "fi-FI"
 # Note: only 50 queries / day / key
-GOOGLE_API_KEY = you_have_to_create_a_Google_API_key_here # eg. "AIzaSyAEM7z2ePcoJnyUl42o9ZJ0_EZMwBgKC2A"
+GOOGLE_API_KEY = you_have_to_create_a_Google_API_key_here # eg. "NVmnFlNRZ7m2rCpbWalHy42b9MW0_RMZjOtXP2N"
 BRAIN_DATABASE = r"keskustelija.brain"
 
 def finnish_text_to_speech(phrase):
